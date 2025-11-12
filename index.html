@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="menu_title">Мои Заметки</div>
+            <button id="btn-note" class="menu_button">Новая Заметка</button>
+            <h2>Теги</h2>
+            <ul class="list-container" id="menu">
+            <!-- <li class="list-item active">Все</li>
+            <li class="list-item">Идеи</li>
+            <li class="list-item">Личное</li>
+            <li class="list-item">Работа</li>
+            <li class="list-item">Список покупок</li> -->
+        </ul>
+        </div>
+
+        <div class="content">
+            <div class="search">
+                <input class = 'forma_input' type = 'text' placeholder = 'Поиск' id="search">
+                <button class="search_button" id = "search-btn"></button>
+            </div>
+        <div class="list" id="list">
+            <!-- <div class="list_otch">
+                <span class="list_otch-title">Сдать отчёт</span>
+                <span class="list_otch-date">23 Июля 2024</span>
+                <span class="list_otch-tag">Работа</span>
+            </div>
+            <div class="list_otch">
+                <span class="list_otch-title">Сдать отчёт</span>
+                <span class="list_otch-date">23 Июля 2024</span>
+                <span class="list_otch-tag">Работа</span>
+            </div>
+            <div class="list_otch">
+                <span class="list_otch-title">Сдать отчёт</span>
+                <span class="list_otch-date">23 Июля 2024</span>
+                <span class="list_otch-tag">Работа</span>
+            </div>
+            <div class="list_otch">
+                <span class="list_otch-title">Сдать отчёт</span>
+                <span class="list_otch-date">23 Июля 2024</span>
+                <span class="list_otch-tag">Работа</span>
+            </div>
+            <div class="list_otch">
+                <span class="list_otch-title">Сдать отчёт</span>
+                <span class="list_otch-date">23 Июля 2024</span>
+                <span class="list_otch-tag">Работа</span>
+            </div> -->
+        </div>
+    
+
+            
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <button class="modal__close" id="modal_close">x</button>
+            <form class="modal__form" id = "modal-form">
+                <input type="text" id="modal__input" placeholder="Заголовок">
+                <select name="select" id="modal__select">
+                    <!-- <option value="value1">Значение 1</option>
+                    <option value="value2">Значение 2</option>
+                    <option value="value3">Значение 3</option> -->
+                </select>
+                <button class="modal__btn-save" id="modal-save">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
